@@ -1,0 +1,5 @@
+baseURL: https://rufiec.github.io/
+languageCode: en-us
+title: Ruth Chong's Portfolio
+
+theme: ["PaperMod"]
