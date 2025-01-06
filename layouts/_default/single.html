@@ -9,11 +9,7 @@
     {{ $currentDir := .File.Dir }}
     {{ with .Resources.Match "*.pdf" }}
         {{ range . }}
-        <div class="pdf-preview">
-            <a href="{{ .RelPermalink }}" target="_blank">
-                <span>{{ .Name }}</span>
-            </a>
-        </div>
+        <embed src="{{ .RelPermalink }}" width="100%" height="600px" />
         {{ end }}
     {{ end }}
 </article>
