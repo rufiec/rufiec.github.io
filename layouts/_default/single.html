@@ -1,7 +1,18 @@
 {{ define "main" }}
 <article>
     <header>
+        <a href="{{ .Site.BaseURL }}">Back to home</a>
         <h1>{{ .Title }}</h1>
+        <!-- linked tags -->
+        {{ with .Params.tags }}
+            <ul>
+                {{ range . }}
+                    <li>
+                        <a href="{{ printf "/tags/%s" . | relURL }}">{{ . }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+        {{ end }}
     </header>
     {{ .Content }}
 

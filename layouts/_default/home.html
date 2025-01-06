@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <main>
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    {{ with .Site.Taxonomies.tags }}
+      <ul>
+        {{ range $name, $taxonomy := . }}
+          <li>
+            <a href="{{ "/tags/" | relURL }}{{ $name | urlize }}">{{ $name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </main>
+{{ end }}

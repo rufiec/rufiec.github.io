@@ -5,15 +5,7 @@
         {{ range .Pages }}
             <li>
                 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                 <!-- list and link tags --> 
-                {{ with .Params.tags }}
-                    <ul>
-                        {{ range . }}
-                            <li><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
-                        {{ end }}
-                    </ul>
             </li>
-            {{ end }}
         {{ end }}
     </ul>
 </main>
