@@ -1,6 +1,5 @@
 ---
 title: "6Capsquare Show Gallery & Show Unit"
-date: 2010
 tags: ["commercial", "retail", "residential"]
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Mr. Wu & Friends"
-date: 2019-01-01
 tags: ["hospitality", "branding"]
 ---
 

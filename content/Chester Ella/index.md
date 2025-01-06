@@ -1,6 +1,5 @@
 ---
 title: "Chester & Ella"
-date: 2020
 tags: ["residential"]
 ---
 
