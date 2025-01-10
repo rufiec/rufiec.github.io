@@ -1,3 +1,6 @@
 public
 .DS_Store
+<<<<<<< HEAD
 .hugo_build.lock
+=======
+>>>>>>> 7b9de94 (feat: titles)
