@@ -1,5 +1,5 @@
 ---
-title: "Indigo Alishan Hotel"
+title: "Touching Eden"
 tags: ["hospitality"]
 ---
 

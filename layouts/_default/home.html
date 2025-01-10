@@ -7,7 +7,7 @@
       <ul>
         {{ range $name, $taxonomy := . }}
           <li>
-            <a href="{{ "/tags/" | relURL }}{{ $name | urlize }}">{{ $name }}</a>
+            <a href="{{ "/tags/" | relURL }}{{ $name | urlize }}">{{ $name | title }}</a>
           </li>
         {{ end }}
       </ul>
